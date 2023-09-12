@@ -1,3 +1,16 @@
 body {
-  
+  margin: 0px;
+}
+
+h1, h2 {
+  margin: 0;
+}
+
+.hero-container {
+  background-color: rgb(220, 220, 59);  
+}
+
+.nav {
+  background-color: aqua;
+  width: 50%;
 }
