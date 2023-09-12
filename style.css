@@ -2,6 +2,26 @@ body {
   margin: 0px;
 }
 
+.max-width {
+  max-width: 1440px;
+}
+
+.neon-green {
+  background-color: #A8FF35
+}
+
+.green-2 {
+  background-color: #87D322;
+}
+
+.black {
+  background-color: #000000;
+}
+
+.text-white {
+  color: white;
+}
+
 h1, h2{
   margin: 0;
 }
@@ -33,29 +53,17 @@ button {
   font-size: 16px;
 }
 
-.neon-green {
-  background-color: #A8FF35
-}
-
-.green-2 {
-  background-color: #87D322;
-}
-
-.black {
-  background-color: #000000;
-}
-
-.text-white {
-  color: white;
-}
-
 .hero-container {
   height: 600px;
+  background: url(https://i.ibb.co/BP58ZVD/Bg-hero.png)no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;;
 }
 
 
 nav {
-  width: 95%;
   display: flex;
   justify-content: space-between;
   align-items: center;
