@@ -18,12 +18,24 @@ body {
   background-color: #000000;
 }
 
+.white {
+  background-color: white;
+}
+
 .text-white {
   color: white;
 }
 
-h1, h2{
+h1, h2, p{
   margin: 0;
+}
+
+h2 {
+  font-size: 72px;
+}
+
+p {
+  font-size: 18px;
 }
 
 a {
@@ -43,18 +55,18 @@ ul {
   padding: 0;
   margin: 0;
   display: flex;
-  font-size: 16px;
+  font-size: 18px;
 }
 
 button {
   border-radius: 40px;
   border: none;
-  padding: 6px 14px;
-  font-size: 16px;
+  padding: 12px 32px;
+  font-size: 18px;
 }
 
 .hero-container {
-  height: 600px;
+  height: 800px;
   background: url(https://i.ibb.co/BP58ZVD/Bg-hero.png)no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -68,25 +80,24 @@ nav {
   justify-content: space-between;
   align-items: center;
   margin: auto;
-  padding: 14px;
+  height: 99px;
 }
 
 .logo {
-  height: 30px;
+  height: 31px;
+  width: 170px;
   display: flex;
   align-items: center;
   padding: 4px;
-
 }
 
 .logo img {
   height: 100%;
-  width: 50%;
 }
 
 .logo h1 {
   margin-left: 10px;
-  font-size: 22px;
+  font-size: 24px;
 }
 
 .btn-login {
@@ -94,26 +105,74 @@ nav {
 }
 
 .hero-content {
-  width: 500px;
+  width: 700px;
   align-items: center;
-  margin: 5% auto;
+  margin: 8% auto;
   text-align: center;
   padding: 10px;
 }
 
 .hero-content h2 {
-  font-size: 50px;
   line-height: 55px;
-  margin: 10px;
 }
 
 .hero-content p {
   margin: 10px 0;
   padding: 20px;
-  font-size: 16px;
   color: #8b8b8b;
+  line-height: 27px;
+  font-weight: 400;
 }
 
 .hero-btn {
-  padding: 14px;
+  padding: 16px, 32px;
+  font-size: 18px;
+  line-height: 25.2px;
+  font-weight: 700;
 }
+
+.open-tab-container {
+  padding: 100px 0 ;
+  height: 642px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tab-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 854px;
+  height: 462px;
+}
+
+.tab-content h2 {
+  line-height: 85.5px;
+}
+
+.img-container {
+  width: 502px; 
+  height: 202px;
+  border-radius: 16px;
+  margin: 40px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-container img {
+  width: 341.2px;
+  height: 82px;
+}
+
+
+.tab-content p {
+  text-align: center;
+  font-weight: 400;
+  line-height: 27px;
+}
+
+
+
+
