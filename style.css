@@ -26,7 +26,11 @@ body {
   color: white;
 }
 
-h1, h2, p{
+.text-gray {
+  color: #ADADAD;
+}
+
+h1, h2, p, h3{
   margin: 0;
 }
 
@@ -171,6 +175,62 @@ nav {
   text-align: center;
   font-weight: 400;
   line-height: 27px;
+}
+
+.findtrend-about {
+  text-align: center;
+  padding-bottom: 50px;
+  max-width: 1160px;
+  margin: auto;
+}
+
+.info {
+  margin: 150px auto;
+}
+
+.info h3, .startup-growth h2 {
+  font-size: 64px;
+  line-height: 76px;
+  font-weight: 700;
+  text-align: left;
+}
+
+.startup-growth h2 {
+  text-align: center;
+}
+
+.startup-growth {
+  margin: 120px auto;
+  max-width: 1160px;
+}
+
+.companies-container {
+  margin-top: 60px;
+}
+
+.companies-section{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px ;
+}
+
+.companies-section:last-child {
+  margin: 0;
+}
+
+.company {
+  border-radius: 8px;
+  background-color: #f5f5f5;
+  width: 266px;
+  height: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.company img {
+  width: 75%;
 }
 
 
