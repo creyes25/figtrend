@@ -6,6 +6,7 @@ body {
   max-width: 1440px;
 }
 
+
 .neon-green {
   background-color: #A8FF35
 }
@@ -179,13 +180,14 @@ nav {
 
 .findtrend-about {
   text-align: center;
-  padding-bottom: 50px;
-  max-width: 1160px;
+  padding: 30px;
+  padding-bottom: 40px;
   margin: auto;
 }
 
 .info {
   margin: 150px auto;
+  max-width: 1160px;
 }
 
 .info h3, .startup-growth h2 {
@@ -200,7 +202,7 @@ nav {
 }
 
 .startup-growth {
-  margin: 120px auto;
+  margin: 120px auto 80px;
   max-width: 1160px;
 }
 
@@ -231,6 +233,76 @@ nav {
 
 .company img {
   width: 75%;
+}
+
+.findtrend-platform {
+  background-color: #fafafa;
+  text-align: center;
+  padding: 100px 30px;
+}
+
+.findtrend-platform h2{
+  max-width: 1166px;
+  margin: auto;
+  font-size: 64px;
+  font-weight: 700;
+}
+
+.socials {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1166px;
+  margin: 100px auto;
+  
+}
+
+.social-logo {
+  background-color: #FFFFFF;
+  height: 60px;
+  width: 60px;
+  border-radius: 8px;
+  margin-right: 15px;
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  /* border: 1px solid red; */
+}
+
+.twitter {
+  background-color: #A8FF35;
+}
+
+.social-logo:last-child {
+  margin-right: 0;
+}
+
+.social-logo img {
+  width: 100%;
+}
+
+.twitter-posts {
+  width: 800px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.post {
+  margin: 10px;
+}
+
+
+
+.btn-more-trend {
+  height: 57px;
+  width: 190px;
+  padding: 0;
+  line-height: 25px;
+  text-align: center;
+  margin: 50px auto 10px;
 }
 
 
