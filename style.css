@@ -1,9 +1,23 @@
 body {
   margin: 0px;
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: 400;
 }
 
 .max-width {
   max-width: 1440px;
+}
+
+.weight700 {
+  font-weight: 700;
+}
+
+.weight900 {
+  font-weight: 900;
+}
+
+.weight500 {
+  font-weight: 500;
 }
 
 
@@ -113,7 +127,7 @@ nav {
 }
 
 .hero-content {
-  width: 700px;
+  width: 750px;
   align-items: center;
   margin: 8% auto;
   text-align: center;
@@ -121,7 +135,7 @@ nav {
 }
 
 .hero-content h2 {
-  line-height: 55px;
+  line-height: 80px;
 }
 
 .hero-content p {
@@ -136,7 +150,7 @@ nav {
   padding: 16px, 32px;
   font-size: 18px;
   line-height: 25.2px;
-  font-weight: 700;
+  height: 57px;
 }
 
 .open-tab-container {
@@ -177,7 +191,6 @@ nav {
 
 .tab-content p {
   text-align: center;
-  font-weight: 400;
   line-height: 27px;
 }
 
@@ -196,7 +209,6 @@ nav {
 .info h3, .startup-growth h2 {
   font-size: 64px;
   line-height: 76px;
-  font-weight: 700;
   text-align: left;
 }
 
@@ -248,7 +260,7 @@ nav {
   max-width: 1166px;
   margin: auto;
   font-size: 64px;
-  font-weight: 700;
+  line-height: 76px;
 }
 
 .socials {
@@ -270,7 +282,6 @@ nav {
   justify-content: center;
   align-items: center;
   padding: 30px;
-  /* border: 1px solid red; */
 }
 
 .twitter {
@@ -300,8 +311,7 @@ nav {
 
 .btn-more-trend {
   height: 57px;
-  width: 190px;
-  padding: 0;
+  padding: 16px 32px;
   line-height: 25px;
   text-align: center;
   margin: 50px auto 10px;
@@ -327,7 +337,6 @@ nav {
 }
 
 .monthly-yearly h3 {
-  font-weight: 500;
   line-height: 29px;
   margin: 15px 0;
 }
@@ -364,7 +373,7 @@ nav {
 
 .deal-card{
   width: 360px;
-  padding: 25px;
+  padding: 20px;
   padding-bottom: 5px;
   background-color: white;
   color: #000000;
@@ -388,11 +397,12 @@ nav {
 .top-section h3 {
   font-size: 36px;
   margin-bottom: 5px;
-
 }
+
 
 .middle-section {
   margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .middle-section h3 {
@@ -407,7 +417,6 @@ nav {
 .middle-section ul{
   flex-direction: column;
   margin-top: 15px;
-  font-weight: 400;
   height: 300px;
 }
 
@@ -423,6 +432,7 @@ nav {
 
 .top-section, .middle-section, .deal-card button {
   margin-left: 15px;
+
 }
 
 .deal-card button {
@@ -430,20 +440,19 @@ nav {
   height: 58px;
   border-radius: 29px;
   line-height: 25px;
-  font-weight: 700;
-  margin: 10px auto 15px ;
+  margin: 25px auto 15px ;
 }
 
 .join-email {
   margin-top: 10px;
   padding: 50px;
   text-align: center;
+  line-height: 80.6px;
 }
 
 .join-info {
-  width: 740px;
+  width: 790px;
   font-size: 72px;
-  font-weight: 700;
   line-height: 80.6px;
   margin: 60px auto 40px;
 }
@@ -458,8 +467,9 @@ footer {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 25px 50px;
+  padding: 25px 60px;
 }
+
 
 .footer-logo {
   margin-left: 45px;
