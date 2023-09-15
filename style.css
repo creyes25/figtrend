@@ -12,7 +12,7 @@ body {
 }
 
 .green-2 {
-  background-color: #87D322;
+  color: #87D322;
 }
 
 .black {
@@ -47,6 +47,8 @@ p {
 a {
   text-decoration: none;
 }
+
+a:visited { text-decoration: none; }
 
 li {
   margin-right: 30px;
@@ -90,7 +92,7 @@ nav {
 }
 
 .logo {
-  height: 31px;
+  height: 41px;
   width: 170px;
   display: flex;
   align-items: center;
@@ -419,7 +421,7 @@ nav {
   margin: 12px 0;
 }
 
-.top-section, .middle-section, button {
+.top-section, .middle-section, .deal-card button {
   margin-left: 15px;
 }
 
@@ -430,6 +432,46 @@ nav {
   line-height: 25px;
   font-weight: 700;
   margin: 10px auto 15px ;
+}
+
+.join-email {
+  margin-top: 10px;
+  padding: 50px;
+  text-align: center;
+}
+
+.join-info {
+  width: 740px;
+  font-size: 72px;
+  font-weight: 700;
+  line-height: 80.6px;
+  margin: 60px auto 40px;
+}
+
+.join-email button{
+  padding: 16px 32px;
+  width: 180px;
+  margin-bottom: 80px;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 25px 50px;
+}
+
+.footer-logo {
+  margin-left: 45px;
+}
+
+.footer-info {
+  margin-right: 45px;
+}
+
+.footer-info a {
+  color: black;
+  font-weight: 400;
 }
 
 
