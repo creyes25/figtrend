@@ -1,7 +1,47 @@
-body {
-  margin: 0px;
+html, body {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  /* overflow: hidden; */
   font-family: 'Noto Sans', sans-serif;
   font-weight: 400;
+  /* scroll-behavior: ; */
+  
+}
+
+h1, h2, p, h3{
+  margin: 0;
+}
+
+h2 {
+  font-size: 72px;
+}
+
+p {
+  font-size: 18px;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:visited { text-decoration: none; }
+
+li {
+  margin-right: 30px;
+}
+
+li:last-child {
+  margin-right: 0;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  font-size: 18px;
 }
 
 .max-width {
@@ -46,39 +86,6 @@ body {
 }
 
 
-h1, h2, p, h3{
-  margin: 0;
-}
-
-h2 {
-  font-size: 72px;
-}
-
-p {
-  font-size: 18px;
-}
-
-a {
-  text-decoration: none;
-}
-
-a:visited { text-decoration: none; }
-
-li {
-  margin-right: 30px;
-}
-
-li:last-child {
-  margin-right: 0;
-}
-
-ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  display: flex;
-  font-size: 18px;
-}
 
 button {
   border-radius: 40px;
@@ -103,6 +110,8 @@ nav {
   align-items: center;
   margin: auto;
   height: 99px;
+  background-color: #000000;
+  max-width: 90%;
 }
 
 .logo {
@@ -130,8 +139,11 @@ nav {
   width: 750px;
   align-items: center;
   margin: 8% auto;
-  text-align: center;
+  /* text-align: center; */
   padding: 10px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
 }
 
 .hero-content h2 {
@@ -203,15 +215,15 @@ nav {
 .about-container {
   max-width: 1160px;
   margin: auto;
-  padding: 0;
+  padding: 20px;
 }
 
 .info {
   margin: 150px auto;
 }
 
-.info h3, .startup-growth h2 {
-  font-size: 64px;
+.info h2, .startup-growth h2 {
+  font-size: 55px;
   line-height: 76px;
   text-align: left;
 }
@@ -243,7 +255,7 @@ nav {
 .company {
   border-radius: 8px;
   background-color: #f5f5f5;
-  width: 266px;
+  width: calc(25% - 10px);
   height: 120px;
   display: flex;
   justify-content: center;
@@ -301,7 +313,7 @@ nav {
 }
 
 .twitter-posts {
-  width: 800px;
+  max-width: 800px;
   margin: auto;
   display: flex;
   flex-direction: column;
@@ -491,4 +503,94 @@ footer {
   font-weight: 400;
 }
 
+@media screen and (min-width: 700px) and (max-width: 1025px) {
+  body, html {
+    overflow-x: hidden;
+  }
 
+  h2 {
+    font-size: 58px;
+  }
+
+  .hero-container {
+    margin: 0;
+  }
+  .nav-menu, .nav-btns, .logo h1 {
+    display: none;
+  }
+
+  nav {
+    max-width: 90%;
+    padding: 20px;
+    padding-top: 25px;
+    background-color: #00000000;
+  }
+
+  .logo {
+    width: 65px;
+    height: 60px;
+  }
+
+  .hero-content {
+    margin-top: 15%;
+    padding: 0;
+  }
+
+  .hero-content h2 {
+    line-height: 70px;
+  }
+
+  .hero-content p, .tab-content p  {
+    font-size: 16px;
+    /* line-height: 20px; */
+    width: 450px;
+
+  }
+
+  .hero-content p br, .tab-content p br {
+    display: none;
+  }
+
+  .info{
+    margin-top: 100px;
+  }
+
+  .info h2, .startup-growth h2, .findtrend-platform h2 {
+    font-size: 50px;
+    line-height: 70px;
+  }
+
+  .companies-section {
+    flex-wrap: wrap;
+    margin-bottom: 8px;
+  }
+
+  .company {
+    width: calc(50% - 20px);
+    margin: 10px;
+  }
+
+  .company img {
+    width: calc(50% - 10px);
+  }
+
+  .socials {
+    width: 515px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+
+  .social-logo {
+    width: calc(22% - 60px);
+    margin: 5px;
+  }
+
+
+
+}
+
+@media only screen and (min-width: 1000px){
+  body {
+    /* color: pink; */
+  }
+}
