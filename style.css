@@ -198,12 +198,16 @@ nav {
   text-align: center;
   padding: 30px;
   padding-bottom: 40px;
+}
+
+.about-container {
+  max-width: 1160px;
   margin: auto;
+  padding: 0;
 }
 
 .info {
   margin: 150px auto;
-  max-width: 1160px;
 }
 
 .info h3, .startup-growth h2 {
@@ -217,7 +221,7 @@ nav {
 }
 
 .startup-growth {
-  margin: 120px auto 80px;
+  margin: 200px auto 80px;
   max-width: 1160px;
 }
 
@@ -464,12 +468,15 @@ nav {
 }
 
 footer {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
   padding: 25px 60px;
 }
 
+.footer-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: auto;
+}
 
 .footer-logo {
   margin-left: 45px;
