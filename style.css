@@ -457,10 +457,10 @@ nav {
   border-radius: 29px;
   line-height: 25px;
   margin: 25px auto 15px ;
+  margin-left: calc(22% - 40px);
 }
 
 .join-email {
-  margin-top: 10px;
   padding: 50px;
   text-align: center;
   line-height: 80.6px;
@@ -503,11 +503,7 @@ footer {
   font-weight: 400;
 }
 
-@media screen and (min-width: 700px) and (max-width: 1025px) {
-  body, html {
-    overflow-x: hidden;
-  }
-
+@media screen and (max-width: 1022px) {
   h2 {
     font-size: 58px;
   }
@@ -515,6 +511,7 @@ footer {
   .hero-container {
     margin: 0;
   }
+
   .nav-menu, .nav-btns, .logo h1 {
     display: none;
   }
@@ -534,6 +531,7 @@ footer {
   .hero-content {
     margin-top: 15%;
     padding: 0;
+    width: 700px;
   }
 
   .hero-content h2 {
@@ -542,7 +540,6 @@ footer {
 
   .hero-content p, .tab-content p  {
     font-size: 16px;
-    /* line-height: 20px; */
     width: 450px;
 
   }
@@ -585,12 +582,243 @@ footer {
     margin: 5px;
   }
 
+  .deals-container {
+    padding: 10px;
+
+  }
+
+  .deals-container h2 {
+    font-size: 58px;
+  }
+
+  .toggle-container {
+    height: 48px;
+  }
+
+  .deals {
+    flex-direction: column;
+    margin-bottom: 70px;
+  }
+
+  .deal-card {
+    margin-right: 0;
+    margin-bottom: 15px;
+  }
+
+  .join-email {
+    padding: 10px;
+  }
+
+  .join-info {
+    width: 650px;
+  }
+
+  .join-info h2 {
+    font-size: 48px;
+    line-height: 52px;
+  }
+
+  .footer-container {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .footer-logo {
+    margin: 0 auto;
+    width: auto;
+  }
+  
+  .footer-logo h1 {
+    display: block;
+  }
+
+  .footer-info {
+    margin: 0;
+  }
+
+  .footer-info ul {
+    flex-direction: column;
+    margin: 30px auto;
+    align-items: center;
+    gap: 40px;
+  }
+
+  .footer-info ul li {
+    margin: 0 ;
+  }
 
 
 }
 
-@media only screen and (min-width: 1000px){
-  body {
-    /* color: pink; */
+@media only screen and (max-width: 699px){
+  h2 {
+    font-size: 34px;
+  }
+
+
+  .logo {
+    width: 40px;
+    height: 40px;
+  }
+
+  .hero-content {
+    width: 320px;
+  }
+
+  .hero-content h2 {
+    line-height: 112%;
+  }
+
+  .hero-content p, .tab-content p  {
+    font-size: 14px;
+    width: 320px;
+
+  }
+
+  .open-tab-container {
+    height: auto;
+  }
+
+  .tab-content {
+    width: 330px;
+    margin-top: 50px;
+  }
+
+  .tab-content h2 {
+    font-size: 30px;
+    line-height: 110%;
+    
+  }
+
+  .img-container {
+    width: 330px;
+    height: 118px;
+  }
+
+  .img-container img {
+    width: 90%;
+    height: auto;
+  }
+
+  .findtrend-about {
+    padding: 10px;
+  }
+
+  .info{
+    margin-top: 40px;
+    padding: 5px;
+  }
+
+  .info h2, .startup-growth h2, .findtrend-platform h2 {
+    font-size: 36px;
+    line-height: 110%;
+  }
+
+  .startup-growth {
+    margin-top: 100px;
+    margin-bottom: 50px;
+  }
+
+  .startup-growth h2 {
+    margin-top: 50px;
+  }
+
+  .companies-section {
+    margin-bottom: 0px;
+  }
+
+  .company {
+    margin: 5px;
+  }
+
+  .company img {
+    width: calc(90% - 10px);
+  }
+
+  .findtrend-about {
+    padding: 10px
+  }
+
+  .socials {
+    flex-wrap: nowrap;
+    display: none;
+  }
+
+  .social-logo {
+    padding: 0px;
+    width: 64px;
+    height: 64px;
+  }
+
+  .social-logo img {
+    width: 50%;
+  }
+
+  .findtrend-platform {
+    padding: 80px 20px;
+  }
+
+  .post {
+    margin: 0;
+  }
+
+  .btn-more-trend  {
+    padding: 12px 24px;
+    font-size: 14px;
+  }
+
+  .deals-container {
+    padding: 5px;
+  }
+
+  .deals-container h2 {
+    font-size: 32px;
+  }
+
+  .monthly-yearly h3 {
+    font-size: 20px;
+  }
+
+  .toggle-container {
+    height: 44px;
+    width: 104px;
+  }
+
+  .deals {
+    flex-direction: column;
+  }
+
+  .deal-card {
+    width: 300px;
+    padding: 5px;
+  }
+
+  .top-section h3 {
+    margin-top: 10px;
+  }
+
+  .deal-card button {
+    width: 278px;
+    height: 54px;
+    margin-left: calc(22% - 55px);
+  }
+
+  .join-info {
+    width: 300px;
+  }
+
+  .join-info h2 {
+    font-size: 30px;
+    line-height: 110%;
+  }
+
+  .footer-container {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .footer-logo {
+    margin: 0 auto;
+    width: auto;
   }
 }
