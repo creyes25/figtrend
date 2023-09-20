@@ -94,6 +94,10 @@ button {
   font-size: 18px;
 }
 
+.note {
+  font-family: 'Delicious Handrawn', cursive;
+}
+
 .hero-container {
   height: 800px;
   background: url(https://i.ibb.co/BP58ZVD/Bg-hero.png)no-repeat center center fixed; 
@@ -253,7 +257,7 @@ nav {
 
 .tab-details {
   position: absolute;
-  font-size: 10px;
+  font-size: 14px;
   text-align: center;
 }
 
@@ -466,7 +470,7 @@ nav {
   height: 0;
   position: relative;
   text-align: center;
-  font-size: 14px;
+  font-size: 20px;
   margin: auto;
 }
 
